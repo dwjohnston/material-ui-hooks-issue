@@ -10,7 +10,7 @@ const useStyles = makeStyles(theme => {
     }});
 
 export function MyMaterialComponent({ }) {
-     const classes = useStyles();   //Does't matter if we don't use it. 
+     const classes = useStyles();  
     const theme =  useTheme();
     console.log(theme);
     return (
