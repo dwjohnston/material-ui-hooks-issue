@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.0.1",
+    "@material-ui/styles": "^4.0.1",
     "library": "^0.1.0",
     "react": "^16.8.6",
     "react-color-square": "^1.0.1",
