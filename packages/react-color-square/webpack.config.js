@@ -23,6 +23,8 @@ module.exports = {
     ]
   },
   externals: {
-    'react': 'commonjs react' 
+    'react': 'react', 
+    "react-dom": "react-dom"
+
   }
 };

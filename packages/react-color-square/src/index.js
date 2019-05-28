@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 
 const ReactColorSquare = props => {
+
+  const [rand, updateRand] = useState(Math.random()); 
   const { width, height, color, text } = props;
   return (
     <div
@@ -10,7 +12,7 @@ const ReactColorSquare = props => {
         backgroundColor: color || "blue"
       }}
     >
-      {text}
+      {text} {rand}
     </div>
   );
 };

@@ -5,6 +5,7 @@
   "dependencies": {
     "library": "^0.1.0",
     "react": "^16.8.6",
+    "react-color-square": "^1.0.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
