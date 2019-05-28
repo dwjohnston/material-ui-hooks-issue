@@ -1,0 +1,11 @@
+0 silly argv { _: [ 'add' ],
+0 silly argv   globs: [ 'packages/app' ],
+0 silly argv   lernaVersion: '3.13.4',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'library' }
+1 notice cli v3.13.4
+2 verbose rootPath /home/david/git-workspace/material-ui-hooks-issue
+3 error library: No valid versions available for library
+3 error     at pickManifest (/home/david/.nvm/versions/node/v8.15.1/lib/node_modules/lerna/node_modules/npm-pick-manifest/index.js:36:11)
+3 error     at fetchPackument.then.packument (/home/david/.nvm/versions/node/v8.15.1/lib/node_modules/lerna/node_modules/pacote/lib/fetchers/registry/manifest.js:24:14)
+3 error     at <anonymous>
